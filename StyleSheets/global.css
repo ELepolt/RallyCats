@@ -1,0 +1,345 @@
+/***********************************************************************
+							Global
+***********************************************************************/
+p
+{
+	
+}
+
+body
+{
+	background-color: black;
+	font-family:"Verdana",Georgia,Sans-Serif;
+	font-size: 10pt;
+}
+table
+{
+	font-family:"Verdana",Georgia,Sans-Serif;
+	font-size: 10pt;
+}
+.contentBoarder
+{
+	width: 849px;
+	margin: auto;
+	padding-bottom: 10px;
+	background-color: #9D2A1F;
+}
+.content
+{
+	width: 829px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+table.standard
+{
+	background-color: white;
+}
+
+a:link {color:#9D2A1F;}      /* unvisited link */
+a:visited {color:#9D2A1F;}  /* visited link */
+a:hover {color:black;}  /* mouse over link */
+a:active {color:#9D2A1F;}  /* selected link */
+
+.HeaderNav a:link {color:white; }
+.HeaderNav a:visited {color:white; }
+.HeaderNav a:hover {color:black; }
+.HeaderNav a:active {color:white; }
+
+a:link,
+a:visited,
+a:hover,
+a:active
+{
+	text-decoration: none;
+}
+.left
+{
+	text-align: left;
+	padding:0px !important;
+}
+.gCalButton
+{
+	background-image:url('Images/calendar_plus_en.gif');
+	display: block;
+	width:104px;
+	height:17px;
+}
+/***********************************************************************
+							Header.php
+***********************************************************************/
+.header
+{
+	background-image: url('Images/top_banner.gif');
+	height: 138px;
+}
+.SocialMedia
+{
+	float:right;
+	width:200px;
+	height:50px;
+}
+.FBook,
+.Twitter
+{
+	width:50px;
+	height: 50px;
+	display: block;
+	float: right;
+	margin-left:10px;
+	margin-top: 10px;
+}
+.FBook
+{
+	background-image: url('Images/fbookIcon.png');
+	margin-right: 10px;
+}
+.Twitter
+{
+	background-image: url('Images/twittericon.png');
+}
+.HeaderNav
+{
+	height: 30px;
+	width: 400px;
+	float: right;
+	margin-top: 50px;
+	color: white;
+	font-weight: bold;
+	padding-right: 20px;
+}
+.HeaderNav ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+.HeaderNav li
+{
+	float: left;
+	line-height: 30px;
+	padding-right: 33px;
+}
+.logo
+{
+	width: 300px;
+	height: 100px;
+	display: block;
+	float: left;
+	margin-top: 31px;
+}
+/***********************************************************************
+							Index
+***********************************************************************/
+.ScoopOfTheWeekBackground
+{
+	background-image: url('Images/nippert.gif');
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.headerTD
+{
+	text-align: left;
+	background-color: #9D2A1F;
+	color: white;
+	font-size: 14px;
+	padding-left: 5px;
+}
+.noInfoTD
+{
+	padding-left: 25px;
+}
+.standard td.Sport
+{
+	padding:0;
+	width:55px;
+}
+.standard td.Opponent
+{
+	padding:0;
+	width:125px;
+	text-align:center;
+}
+.Announcements,
+.WhatIsRC
+{
+	float: right;
+	width: 245px;
+	height: 160px;
+	padding-right: 23px;
+	padding-top: 15px;
+}
+.AnnounementsHeader,
+.WhatIsRCHeader,
+.ScoopOfTheWeekHeader
+{
+	border-bottom: solid 1px #9D2A1F;
+	width: 190px;
+}
+.indexClearer
+{
+	display: block;
+	padding-top: 100px;
+}
+.ScoopOfTheWeek
+{
+	width: 256px;
+	margin-top: 15px;
+	margin-left: 15px;
+	padding-top: 15px;
+}
+.ScoopOfTheWeek table
+{
+	width: 256px;
+	padding-bottom: 10px;
+	padding-top:15px;
+}
+.SOTWHeadP
+{
+	padding-top:5px;
+	padding-left: 5px;
+	margin: 0;
+}
+.ScoopTableSpacer
+{
+	padding-bottom:5px;
+}
+/***********************************************************************
+							Events
+***********************************************************************/
+.calendarHolder
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 800px;
+}
+.calendarMonthLink
+{
+	padding-right:30px;
+}
+/***********************************************************************
+							Contact
+***********************************************************************/
+.contactUsTable
+{
+	padding-top: 20px;
+	margin-right: 80px;
+	width: 315px;
+	float: right;
+}
+.execLevel
+{
+	text-align: right;
+}
+.contactUsEmail
+{
+	padding-top: 20px;
+	padding-left: 60px;
+	width: 315px;
+	height: 175px;
+	float: left;
+}
+.contactUsFormTD
+{
+	padding-right: 0px;
+	margin-right: 0px;
+	width: 110px;
+	vertical-align: top;
+}
+.contactUsThankYou
+{
+	padding-top:230px;
+	text-align: center;
+}
+.contactUsClearer
+{
+	padding-top:400px;
+}
+/***********************************************************************
+							Points
+***********************************************************************/
+.TPGScoreboard
+{
+	float:right;
+}
+.TPGLevels
+{
+	float: right;
+	width: 215px;
+	height: 160px;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+.YearlyTPG,
+.WeeklyTPG
+{
+	width: 245px;
+	height: 160px;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+.TPGHeader
+{
+	border-bottom: solid 1px #9D2A1F;
+	width: 190px;
+}
+.TPGTable td
+{
+	padding-left:10px;
+}
+.TPGTable td p
+{
+	padding-top: 0px;
+}
+.tpgIndent
+{
+	padding-left:15px;
+}
+.tpgLevelsSpacer
+{
+	display:block;
+	padding-bottom: 10px;
+}
+.PointsPicture
+{
+	background: url('Images/PointsPicture.png') no-repeat;
+	width: 233px;
+	height: 350px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 15px;
+}
+.ExcelPointsLink
+{
+	width:100%;
+	padding-bottom:25px;
+	margin:auto;
+	text-align:center;
+}
+/***********************************************************************
+							Traditions
+***********************************************************************/
+.TraditionsPicture
+{
+	background: url('Images/TraditionsPicture.jpg') no-repeat;
+	width: 233px;
+	height: 350px;
+	float: right;
+	margin-right: 25px;
+	margin-top: 15px;
+}
+/***********************************************************************
+							View All
+***********************************************************************/
+li.Selected
+{
+	background-color:grey;
+}
+tr.MBB
+{
+	background-color:Aqua;
+}

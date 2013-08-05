@@ -1,0 +1,52 @@
+body
+{ 
+	background-color:#9D2A1F;
+	margin:10px;
+}
+		
+table 
+{
+	margin-left:auto; margin-right:auto;
+	width:350px;
+	background-color:white;
+	border: 4px black solid;
+}
+
+table td 
+{
+	height:45px;
+	width: 170px;
+}
+
+thead td
+{
+	border-bottom:thin #9D2A1F solid;
+} 
+.center
+{	
+	text-align:center; 
+	height:10px;
+}
+
+.left 
+{
+	font-weight:bold;
+	margin-left:16px;
+}
+.gCalButton
+{
+	background-image:url('Images/calendar_plus_en.gif');
+	display: block;
+	width:104px;
+	height:17px;
+	margin: auto;
+}
+.closeModal
+{
+	/*Background-image: url('Images/close.png');*/
+	width:20px;
+	height:20px;
+	background-color: white;
+	position: absolute;
+}
+
